@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    height: 612px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 14px;
+    margin-top: 30px;
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+.container img{
+    height: 241px;
+    width: 390px;
+}
+
+.palabras{
+    padding: 14px 25px;
+}
+
+.palabras h1{
+    font-family: 'Fraunces', serif;
+    font-size: 26px; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.palabras h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 7px;
+    padding: 0;
+}
+
+.palabras p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 0;
+}
+.palabras .numeros{
+    padding: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.palabras .numeros .vrd{
+    font-family: 'Fraunces', serif;
+    font-size: 23px; 
+    color: hsl(158, 36%, 37%);
+    margin-right: 21px;
+}
+
+.palabras .numeros .tcd{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    margin-bottom: 20px;
+}
+
+.palabras .botons button{
+    background-color: hsl(158, 36%, 37%);
+    height: 50px;
+    width: 290px;
+    border-radius: 8px;
+    border: none;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.palabras .botons img{
+    padding: 0;
+    margin: 0;
+    height: 17px;
+    width: 16px;
+}
+.palabras .attribution{
+    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 10%;
+    height: 390;
+}
+@media screen and (min-width:1440px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        margin-top: 159px;
+        height: 406px;
+        width: 542px;
+        display: flex;
+        flex-direction: row;
+    }
+    .container .imagen{
+        content: url("/images/image-product-desktop.jpg");
+        height: 407px;
+        width: 273px;
+        padding: 0;
+        margin: 0;
+    }
+    .palabras{
+        display: flex;
+        flex-direction: column;
+        height: 407px;
+        width:273px;
+        padding: 0;
+        margin: 0;
+    }
+    .palabras h1{
+        margin-left: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .palabras h2{
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .palabras p{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .palabras .numeros{
+        margin: 0;
+        padding: 0;
+        clear: both;
+    }
+    .palabras .botons{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .palabras .botons button{
+        height: 42px;
+        width: 213px;
+
+    }
+    
+}
